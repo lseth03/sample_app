@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright (c) Microsoft Corporation. All rights reserved.
-  ~ Licensed under the MIT License.
-  -->
+
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -21,9 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name="com.microsoft.intune.samples.myapp.TaskrApplication">
+        android:name="com.adobe.samples.myapp.SampleApplication">
 
-        <activity android:name="com.microsoft.intune.samples.myapp.MainActivity"
+        <activity android:name="com.adobe.samples.myapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +35,7 @@
         </activity>
 
         <provider
-            android:authorities="com.microsoft.intune.samples.myapp.utils.CustomFileProvider"
+            android:authorities="com.adobe.samples.myapp.utils.CustomFileProvider"
             android:name="androidx.core.content.FileProvider"
             android:grantUriPermissions="true"
             android:exported="false">
