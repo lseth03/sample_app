@@ -19,3 +19,4 @@ at java.lang.reflect.Method.invoke(Native Method)
 at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
 at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
 
+We have also observed that if we make the next compose view as focusable explicilty, the issue is resolved.
